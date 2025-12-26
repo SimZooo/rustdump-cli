@@ -1,4 +1,4 @@
-use core::{OutputRow, create_dump};
+use rd_core::{OutputRow, create_dump};
 use std::time::Instant;
 use std::{io, path::PathBuf};
 

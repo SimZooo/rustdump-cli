@@ -1,7 +1,8 @@
 [package]
 name = "cli"
 version = "0.1.0"
-edition = "2024"
+edition.workspace = true
+authors.workspace = true
 
 [dev-dependencies]
 criterion = "0.3"
@@ -12,4 +13,4 @@ harness = false
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }
-core = { path = "../core" }
+rd_core = { path = "../rd_core" }
